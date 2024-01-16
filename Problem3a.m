@@ -1,0 +1,14 @@
+clc;
+clear;
+close all;
+magnitude = [0, 1, 5, 6];
+n = [0, 1, 2, 3];
+phase = [NaN, 1, 2, 3];
+figure(1);
+stem(n, magnitude);
+xlabel("n");
+ylabel("|X(w)|");
+figure(2);
+stem(n, phase);
+xlabel("n");
+ylabel("\angle X(w)");
